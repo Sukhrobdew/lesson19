@@ -156,9 +156,13 @@ nav {
 }
 .rsm {
   display: flex;
-  justify-content:center;
-  align-items: center;
   gap: 23px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.rsm img {
+  margin-top: -25px;
 }
 .rsm p {
   font-family: "Livvic";
@@ -171,8 +175,56 @@ nav {
 }
 /* section */
 .lefts input {
-    outline: none;
-    
+  outline: none;
+  margin-top: 10px;
+  border: none;
+  width: 330px;
+  background: transparent;
+  border-bottom: 1px solid white;
+  letter-spacing: -0.115385px;
+  padding: 16px;
+  color: #ffffff;
+}
+.lefts .mss {
+  padding-bottom: 50px;
+}
+.lefts {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.lefts form {
+  text-align: center;
+}
+.lefts button {
+  padding: 10px 32px;
+  border-radius: 24px;
+  border: none;
+  margin-top: 24px;
+}
+@media (min-width: 700px) {
+  .lefts input {
+    width: 500px;
+  }
+}
+@media (min-width: 1000px) {
+  .lefts input {
+  }
+  .lert {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 140px;
+  }
+  .lefts {
+    width: 50%;
+  }
+  .right {
+    text-align: left;
+    width: 88%;
+  }
+  .rsm {
+    display: flex;
+    justify-content: start;
+  }
 }
 
 /* footer */
@@ -290,6 +342,6 @@ footer {
   }
   .call {
     margin-top: 73px;
-    margin-left: -230px;
+    margin-right: -500px;
   }
 }
