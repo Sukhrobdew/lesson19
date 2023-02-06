@@ -393,9 +393,130 @@ border-radius: 24px;
     .last-box h3 {
         padding-bottom: 0;
     }
+    
+}
+@media (min-width:1300px) {
     .hd,.hd2,.hd3,.hd4,.hd5{
         display: block;
       }
 }
 
 /* end------------- */
+
+footer {
+    background: #002529;
+  }
+  .footer {
+    text-align: center;
+  }
+  .left img {
+    padding-top: 66px;
+  }
+  .fot-cont h5 {
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    margin: 24px 0;
+  }
+  .fot-cont {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+  
+  .call ul p {
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+  }
+  .call {
+    margin-bottom: 40px;
+  }
+  .right img {
+    margin-bottom: 16px;
+  }
+  .right h5 {
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    padding-bottom: 64px;
+  }
+  
+  /* dvdvvv */
+  @media (min-width: 750px) {
+    .my {
+      text-align: left;
+    }
+    .right {
+      text-align: left;
+    }
+    .right h5 {
+      text-align: end;
+      margin-top: -50px;
+    }
+    .call ul li {
+      text-align: end;
+    }
+    .right img {
+    }
+    .fot-cont {
+      display: flex;
+      justify-content: left;
+    }
+    .fot-cont h5 {
+      margin-bottom: -65px;
+    }
+    .call {
+      margin-top: -40px;
+    }
+  }
+  /* xncnkdjncdnk */
+  
+  @media (min-width: 1000px) {
+    .my {
+      display: flex;
+      justify-content: space-between;
+    }
+    .right {
+      text-align: end;
+    }
+    .right h5 {
+      text-align: end;
+      margin-top: 30px;
+    }
+    .call ul li {
+      text-align: left;
+    }
+    .right img {
+      padding-top: 66px;
+      text-align: end;
+    }
+  
+    .left {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .fot-cont {
+    }
+    .fot-cont h5 {
+      margin-bottom: 65px;
+    }
+    .call {
+      margin-top: 73px;
+      margin-left: -230px;
+    }
+  }
