@@ -57,7 +57,10 @@ nav {
 }
 .top-nav a:hover {
   color: #f67e7e;
-  background-color: #fff;
+  /* background-color: #fff; */
+}
+.top-nav button a:hover{
+    background-color: #fff;
 }
 
 .link-content,
@@ -365,6 +368,10 @@ nav {
 .last-box button {
   background-color: transparent;
   border: 0;
+}
+.last-box button:hover a{
+    background-color: #fff;
+    color: #f67e7e;
 }
 .last-box a {
   font-weight: 600;
